@@ -1,8 +1,8 @@
 public class BestFitMainClass {
     public static void main(String[] args){
         System.out.println("Test Test");
-        int paymentsAvailable[] = {100, 500, 200, 300, 600};
-        int ordersToPay[] = {212, 417, 112, 426,501};
+        int paymentsAvailable[] = { 300,200};
+        int ordersToPay[] = {198, 230, 115, 3834};
         bestFit(paymentsAvailable, ordersToPay);
     }
 
